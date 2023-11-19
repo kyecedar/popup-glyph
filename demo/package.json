@@ -1,0 +1,16 @@
+{
+  "name": "popup-glyph-demo",
+  "type": "module",
+  "private": true,
+  "version": "0.0.1",
+  "description": "animation and vector library for popup.",
+  "author": "Kye Cedar",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "demo.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "devDependencies": {
+    "express": "^4.18.2"
+  }
+}
