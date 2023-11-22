@@ -6,7 +6,7 @@ const app = express();
 
 const cwd = process.cwd();
 
-app.use('/assets', express.static('./assets'));
+app.use('/', express.static('./public'));
 app.use('/lib', express.static('./../lib'));
 
 app.get('/', async (req, res) => {
